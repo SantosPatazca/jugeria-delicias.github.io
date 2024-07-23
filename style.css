@@ -1,0 +1,350 @@
+.navbar {
+    background-color: #70b578;
+    border-bottom: 1px solid #e3e7f1;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: mv boli;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+
+
+#hero-section {
+    background-image: url('images/portada1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+}
+  
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#hero-section .hero-content h1 span {
+    margin-left: 15px;
+    color: #fac031;
+    font-family: mv boli;
+    line-height: 22px;
+    font-size: 70px;
+}
+
+.hero p {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+  
+.hero .btn {
+    font-size: 1.2rem;
+}
+
+
+
+/* Nosotros */
+#nosotros {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.about_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_text {
+    text-align: left;
+    padding: 10px;
+}
+
+.about_text h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about_text h2 span{
+    color: #fac031;
+
+}
+
+.about_text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.about_text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.about_btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about_btn:hover {
+    background-color: #555;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu */
+
+#menu {
+    padding: 80px 0;
+}
+
+#menu h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#menu h1 span{
+    color: #fac031;
+
+}
+
+.juice_card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.juice_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.juice_card .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: cover;
+    height: 200px; 
+}
+
+.juice_card .card-body {
+    padding: 20px;
+}
+
+.juice_card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.juice_card .card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.juice_card h3 {
+    margin-top: 10px;
+}
+
+.rating {
+    margin-top: 10px;
+    font-size: 1.5rem; 
+    color: #f39c12; 
+}
+
+.rating .star {
+    display: inline-block;
+}
+
+.juice_btn {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+@media (max-width: 992px) {
+    .juice_card .card-img-top {
+        height: 250px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .juice_card .card-img-top {
+        height: 200px; 
+    }
+}
+
+
+/* Pedidos */
+
+#pedidos {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+#pedidos h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#pedidoForm {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#pedidoForm label {
+    font-weight: bold;
+}
+
+#pedidoForm .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#pedidoForm legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#pedidoForm .form-check {
+    margin-bottom: 10px;
+}
+
+#pedidoForm button {
+    margin-top: 20px;
+}
+
+.order_image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    #pedidoForm {
+        padding: 15px;
+    }
+}
+
+#listaPedidos h2 span{
+    color: #fac031;
+}
+
+.footer {
+    background-color: #70b578;
+    padding: 30px 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #fac031;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer i {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer i:hover {
+    color: #fac031;
+}
+
+
+.footer .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer .social-icon:hover {
+    color: #fac031;
+}
+
+
+
